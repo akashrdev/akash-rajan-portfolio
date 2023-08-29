@@ -11,6 +11,7 @@ module.exports = {
       fontFamily: {
         inter: ['Inter', 'sans-serif'],
         lusitana: ['Lusitana', 'serif'],
+        rubik: ['Rubik', 'sans-serif'],
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
