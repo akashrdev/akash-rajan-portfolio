@@ -2,7 +2,7 @@ import '../../app/globals.css';
 
 const Header = () => {
   return (
-    <div className="h-13 w-screen flex flex-row border-b border-black shadow-lg justify-between p-7 ">
+    <div className="h-13 w-screen flex flex-row border-b border-black shadow-lg justify-between p-7">
       <button>
         <h1 className="text-6xl font-inter font-extrabold">Akash Rajan</h1>
       </button>

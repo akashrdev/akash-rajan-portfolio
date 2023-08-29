@@ -7,7 +7,7 @@ const Home = () => {
       <div className="flex">
         <Header />
       </div>
-      <div className="flex">
+      <div className="flex justify-center">
         <About />
       </div>
     </div>
