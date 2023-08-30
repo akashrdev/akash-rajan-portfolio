@@ -3,7 +3,7 @@ import '../../app/globals.css';
 const Header = () => {
   return (
     <div className="h-13 w-screen flex flex-row justify-between p-8 ">
-      <a href="#about">
+      <a href="#">
         <h1 className="text-6xl text-white font-spacemono ">Akash Rajan</h1>
       </a>
       <div className="flex mt-5">
