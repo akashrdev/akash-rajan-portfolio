@@ -9,9 +9,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        inter: ['Inter', 'sans-serif'],
-        lusitana: ['Lusitana', 'serif'],
-        rubik: ['Rubik', 'sans-serif'],
+        eczar: ['Eczar', 'erif'],
+        spacemono: ['Space Mono', 'monospace'],
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

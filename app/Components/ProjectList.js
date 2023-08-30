@@ -8,7 +8,7 @@ const ProjectList = () => {
     <div className="m-7 text-5xl mt-28 font-inter font-extrabold ">
       <div
         id="projects"
-        className="flex flex-row space-x-64 align-middle justify-center overflow-x-visible"
+        className="flex flex-row space-x-16 align-middle justify-center overflow-clip"
       >
         <WiskyBusiness />
         <Aficionado />

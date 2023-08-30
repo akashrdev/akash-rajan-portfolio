@@ -1,9 +1,9 @@
 const WiskyBusiness = () => {
   return (
-    <div className="max-w-xs h-96 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ease-out hover:translate-y-1 transition-all">
+    <div className="w-72 h-96 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ease-out hover:translate-y-1 transition-all">
       <a href="https://github.com/akashrdev/WiskyBusiness" target="_blank">
         <img
-          className="rounded-t-lg h-48 w-full object-cover"
+          className="rounded-t-lg h-48 w-full object-fill"
           src="/Wisky Business.png"
           alt=""
         />
