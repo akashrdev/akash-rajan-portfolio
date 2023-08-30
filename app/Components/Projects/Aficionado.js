@@ -3,8 +3,8 @@ const Aficionado = () => {
     <div className="w-72 h-96 bg-indigo-950 rounded-lg shadow ease-out hover:translate-y-1 transition-all">
       <a href="https://github.com/akashrdev/aficionado">
         <img
-          className="rounded-t-lg h-48 w-full object-fill border-black border rounded-lg"
-          src="Aficionado.png"
+          className="rounded-t-lg h-48 w-full object-fill bg-white"
+          src="streaming.svg"
           alt=""
         />
       </a>

@@ -3,8 +3,8 @@ const WiskyBusiness = () => {
     <div className="w-72 h-96 bg-indigo-950 rounded-lg shadow ease-out hover:translate-y-1 transition-all">
       <a href="https://github.com/akashrdev/WiskyBusiness" target="_blank">
         <img
-          className="rounded-t-lg h-48 w-full object-fill"
-          src="/Wisky Business.png"
+          className="rounded-t-lg bg-white h-48 w-full object-fill"
+          src="/adoption.svg"
           alt=""
         />
       </a>
@@ -14,7 +14,7 @@ const WiskyBusiness = () => {
             Wisky Business
           </h5>
         </a>
-        <p className="mb-3 text-sm font-normal text-white">
+        <p className="mb-3 text-sm font-normal text-white ">
           Wisky Business is a simple memory game you can play solo or invite a
           friend! Each card in the game is an actual animal in need of adoption
           at a shelter near you!
