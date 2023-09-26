@@ -13,13 +13,13 @@ const Home = () => {
       <div className="flex">
         <Header />
       </div>
-      <div className="flex justify-center pt-14 pb-7">
+      <div className="flex justify-center pt-14 pb-9">
         <About />
       </div>
-      <div className="p=7">
+      <div className="p-9">
         <TechStack />
       </div>
-      <div className="p-7">
+      <div className="p-9">
         <ProjectList />
       </div>
     </div>
