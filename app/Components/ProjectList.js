@@ -5,7 +5,7 @@ import PHP from './Projects/PHP.js';
 
 const ProjectList = () => {
   return (
-    <div className="m-7 text-5xl mt-28 font-inter font-extrabold ">
+    <div className=" text-5xl font-inter font-extrabold ">
       <div
         id="projects"
         className="flex flex-row space-x-16 align-middle justify-center overflow-clip"

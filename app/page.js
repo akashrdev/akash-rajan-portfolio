@@ -1,6 +1,7 @@
 import Header from '../app/Components/Header.js';
 import About from '../app/Components/About.js';
 import ProjectList from '../app/Components/ProjectList.js';
+import TechStack from '../app/Components/TechStack.js';
 const Home = () => {
   return (
     <div
@@ -12,10 +13,13 @@ const Home = () => {
       <div className="flex">
         <Header />
       </div>
-      <div className="flex justify-center">
+      <div className="flex justify-center pt-14 pb-7">
         <About />
       </div>
-      <div>
+      <div className="p=7">
+        <TechStack />
+      </div>
+      <div className="p-7">
         <ProjectList />
       </div>
     </div>

@@ -11,11 +11,12 @@ const PHP = () => {
       <div className="p-4">
         <a href="#">
           <h5 className="mb-2 text-xl font-bold tracking-tight text-rose-500">
-            My next great idea!
+            SolVision
           </h5>
         </a>
         <p className="mb-3 text-sm font-normal text-white">
-          Placeholder for my inevitable next great idea.
+          SolVision is a Solana Blockchain explorer for beginners. Get up to
+          date Solana prices, and analyze your blockchain activity with ease.
         </p>
       </div>
     </div>

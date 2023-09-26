@@ -2,16 +2,18 @@ import '../../app/globals.css';
 
 const Header = () => {
   return (
-    <div className="h-13 w-screen flex flex-row justify-between p-8 ">
+    <div className="h-13 w-screen flex flex-row justify-between p-8 items-end">
       <a href="#">
         <h1 className="text-6xl text-white font-spacemono ">Akash Rajan</h1>
       </a>
-      <div className="flex mt-5">
-        <a href="/Akash Rajan Resume.pdf" target="_blank">
-          <h1 className="text-4xl text-white font-spacemono flex justify-end">
-            Resume
-          </h1>
-        </a>
+      <div className="flex">
+        {/* <button
+          href="/Akash Rajan Resume.pdf"
+          target="_blank"
+          className="flex bg-rose-500 rounded-lg text-white text-3xl py-3 px-7"
+        >
+          Resume
+        </button> */}
       </div>
     </div>
   );

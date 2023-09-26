@@ -24,7 +24,7 @@ const About = () => {
   }, []);
 
   return (
-    <div className="flex mt-28 flex-col ">
+    <div className="flex space-y-9 flex-col">
       <div className="flex flex-col absolute">
         <h1 id="about" className="text-5xl font-spacemono text-white">
           I love to
@@ -39,17 +39,17 @@ const About = () => {
           Howdy! I'm Akash, a Full-Stack Engineer passionate about creating
           delightful user experiences.
         </span>
-        <img src="/web-developer.svg" className="w-3/5 mt-[-150px] " />
+        <img src="/web-developer.svg" className="w-3/5 mt-[-175px] " />
       </div>
       <div className="flex flex-row justify-evenly space-x-5">
         <button className="text-white ease-out hover:translate-y-1 transition-all rounded">
           <a href="https://github.com/akashrdev" target="_blank">
-            <FontAwesomeIcon icon={faGithub} size="2xl" />
+            <FontAwesomeIcon icon={faGithub} font-size="50px" />
           </a>
         </button>
         <button className=" text-blue-500 ease-out hover:translate-y-1 transition-all rounded">
           <a href="https://www.linkedin.com/in/akashrajan/" target="_blank">
-            <FontAwesomeIcon icon={faLinkedin} size="2xl" />
+            <FontAwesomeIcon icon={faLinkedin} font-size="50px" />
           </a>
         </button>
         <button
@@ -58,9 +58,16 @@ const About = () => {
           className="btn text-yellow-500 ease-out hover:translate-y-1 transition-all rounded"
         >
           <a href="mailto:akashrdev@gmail.com?subject=I want to see your skills in action!">
-            <FontAwesomeIcon icon={faEnvelope} size="2xl" />
+            <FontAwesomeIcon icon={faEnvelope} font-size="50px" />
           </a>
         </button>
+      </div>
+      <div className="flex justify-center">
+        <a href="/Akash Rajan Resume.pdf" target="_blank">
+          <button className="bg-rose-500 rounded-lg text-white text-3xl font-spacemono justify-center py-3 px-5 flex hover:translate-y-1 transition-all">
+            Resume
+          </button>
+        </a>
       </div>
     </div>
   );
