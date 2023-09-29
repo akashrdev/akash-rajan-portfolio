@@ -1,7 +1,7 @@
 const PHP = () => {
   return (
     <div className="w-72 h-96 bg-indigo-950 rounded-lg shadow ease-out hover:translate-y-1 transition-all">
-      <a href="#">
+      <a href="https://github.com/akashrdev/SolVision">
         <img
           className="rounded-t-lg bg-white h-48 w-full object-fill"
           src="/thinking.svg"
