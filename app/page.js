@@ -10,16 +10,16 @@ const Home = () => {
         backgroundImage: "url('/bg1.jpg')",
       }}
     >
-      <div className="flex">
+      <div className="">
         <Header />
       </div>
-      <div className="flex justify-center pt-14 pb-9">
+      <div className="">
         <About />
       </div>
-      <div className="p-9">
+      <div className="">
         <TechStack />
       </div>
-      <div className="p-9">
+      <div className="">
         <ProjectList />
       </div>
     </div>
