@@ -25,7 +25,7 @@ const About = () => {
 
   return (
     <div className="space-y-9">
-      <div className="md:flex md:flex-row md:justify-center space-x-56">
+      <div className="md:flex md:flex-row md:justify-center space-x-56 w-screen">
         <div className="flex justify-center space-y-40 md:space-y-0">
           <img src="/Monke.png" className="md:hidden rounded-full h-60 " />
           <div className="flex flex-col absolute pt-24">
@@ -45,7 +45,7 @@ const About = () => {
       </div>
 
       <div className="flex flex-col justify-center md:flex-row space-y-5">
-        <span className="md:pt-0 pt-28 mx-5 text-white font-spacemono">
+        <span className="md:pt-0 pt-28 mx-5 text-white font-spacemono text-center">
           Howdy! I'm Akash, a Full-Stack Engineer passionate about creating
           delightful user experiences.
         </span>
