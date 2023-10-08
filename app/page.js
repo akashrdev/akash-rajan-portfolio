@@ -2,6 +2,7 @@ import Header from '../app/Components/Header.js';
 import About from '../app/Components/About.js';
 import ProjectList from '../app/Components/ProjectList.js';
 import TechStack from '../app/Components/TechStack.js';
+import Footer from '../app/Components/Footer.js';
 const Home = () => {
   return (
     <div
@@ -19,8 +20,11 @@ const Home = () => {
       <div className="">
         <TechStack />
       </div>
-      <div className="">
+      <div className="mt-10">
         <ProjectList />
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
   );

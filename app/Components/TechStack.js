@@ -1,6 +1,6 @@
 const TechStack = () => {
   return (
-    <div className="flex flex-col border border-indigo-800 w-screen p-2 hidden md:block">
+    <div className="flex flex-col border border-indigo-800 w-screen p-2 hidden md:block md:mt-10">
       <h1 className="flex text-4xl font-spacemono justify-center items-center text-white font-"></h1>
 
       <div className="relative flex justify-center flex-row md:space-x-16 space-x-5 align-middle">

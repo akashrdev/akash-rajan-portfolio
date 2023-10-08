@@ -24,7 +24,7 @@ const About = () => {
   }, []);
 
   return (
-    <div className="space-y-9 md:p-5">
+    <div className="space-y-9">
       <div className="md:flex md:flex-row md:justify-center space-x-56">
         <div className="flex justify-center space-y-40 md:space-y-0">
           <img src="/Monke.png" className="md:hidden rounded-full h-60 " />
@@ -67,11 +67,7 @@ const About = () => {
             />
           </a>
         </button>
-        <button
-          //  shadow-[0_9px_0_rgb(10,100,100)]
-          //  hover:shadow-[0_4px_0px_rgb(0,0,0)]
-          className="btn text-yellow-500 ease-out hover:translate-y-1 transition-all rounded"
-        >
+        <button className="btn text-yellow-500 ease-out hover:translate-y-1 transition-all rounded">
           <a href="mailto:akashrdev@gmail.com?subject=I want to see your skills in action!">
             <FontAwesomeIcon
               icon={faEnvelope}
