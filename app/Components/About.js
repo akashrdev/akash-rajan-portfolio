@@ -27,8 +27,8 @@ const About = () => {
     <div className="space-y-9 md:p-5">
       <div className="md:flex md:flex-row md:justify-center space-x-56">
         <div className="flex justify-center space-y-40 md:space-y-0">
-          <img src="/Monke.png" className="md:hidden rounded-full h-40" />
-          <div className="flex flex-col absolute md:pt-24">
+          <img src="/Monke.png" className="md:hidden rounded-full h-60 " />
+          <div className="flex flex-col absolute pt-24">
             <h1 id="about" className="text-5xl font-spacemono text-white">
               I love to
             </h1>
@@ -45,7 +45,7 @@ const About = () => {
       </div>
 
       <div className="flex flex-col justify-center md:flex-row space-y-5">
-        <span className="md:pt-0 pt-28 px-5 text-white font-spacemono">
+        <span className="md:pt-0 pt-28 mx-5 text-white font-spacemono">
           Howdy! I'm Akash, a Full-Stack Engineer passionate about creating
           delightful user experiences.
         </span>
